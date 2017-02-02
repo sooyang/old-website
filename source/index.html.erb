@@ -1,276 +1,166 @@
-  <!-- top header -->
-<!--     <div id="top-header" class="dark">
-        <div class="container top-header">
-            <div class="row">
+<div style="background-color: white; border-bottom: 1px solid">
+  <div class="container text-center no-slider" style="width: 100%">
+    <div class="row">
+      <div id="particles-js" style="width: 100%; height:100vh; top:0; left: 0">
+        <!-- start Navigation -->
+        <nav class="navbar navbar-default" role="navigation" style="position: absolute; background-color: transparent; box-shadow: none; webkit-box-shadow: none">
+          <div class="container" style="background-color: transparent;">
+            <!-- Zetta Menu 1 -->
+            <ul onClick="" class="zetta-menu zm-response-switch zm-full-width zm-effect-slide-top" style="background-color: transparent; ">
+                <!-- Home Menu -->
+                <li class="zm-right-item zm-active">
+                  <a>Home</a>
+                </li>
+                <!-- /Home Menu -->
+            </ul>
+            <!-- /Zetta Menu 1 -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <!-- end nav -->
+        <div class="col-xs- 12 col-sm-12 col-md-12 col-lg-12"  style="color: black; position: absolute; left:50%; -webkit-transform: translateX(-50%); top: 35%">
+          <h3 class="weight-100"> SOO YANG, TAN </h3>
+          <h1 class="weight-300" style="margin: 30px 0"> SOFTWARE ENGINEER </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about-us -->
+<section class="content" style="background-color: #fafafa;">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 padd">
+              <h4 class="uppercase">Who am I?</h4>
+                <div class="line-left"></div>
+                <p class="weight-600">My name is Soo Yang. I'm a full-stack web developer experienced in building MVP applications for startups and business owners</p>
+                <p class="weight-600">My favorite stack includes Ruby on Rails back-end development, React.js front-end developement and React Native mobile developement</p>
+                <p class="weight-600">Need a software solution? Feel free to drop me an email.</p>
+                <button class="btn btn-lg pi-btn-default no-rounded" id="contact_button">Contact</button>
+            </div>
 
-                <div class="col-md-6 col-sm-7">
-                    <a href="#" class="social-icon-jump-x2">
-                        <div>
-                            <i class="fa fa-facebook facebook-icon-jump"></i>
-                            <i class="fa fa-facebook social-icon-jump-dark"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="social-icon-jump-x2">
-                        <div>
-                            <i class="fa fa-twitter twitter-icon-jump"></i>
-                            <i class="fa fa-twitter social-icon-jump-dark"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="social-icon-jump-x2">
+            <div class="col-sm-6 padd">
+              <img class="img-responsive wow zoomIn" src="img/syruby.jpeg" alt="" />
+            </div>
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+<!-- end about-us -->
+<!-- what-we-do -->
+<section class="content">
+  <div class="container">
+      <div class="row">
+
+            <div class="col-sm-6 col-md-3 padd">
+                <div class="single_box style6 wow fadeIn" data-wow-duration="2s">
+                    <div class="icons_introimg image-icon box pink">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>Ruby on Rails</h3>
+                    <p class="introtext">Modern web application</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 padd">
+                <div class="single_box style6 wow fadeIn" data-wow-duration="1s">
+                    <div class="icons_introimg image-icon box grey">
+                        <i class="fa fa-tablet"></i>
+                    </div>
+                    <h3>React Native</h3>
+                    <p class="introtext">Cross-Platform mobile development for iOS and Android using Javascript</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 padd">
+                <div class="single_box style6 wow fadeIn" data-wow-duration="3s">
+                    <div class="icons_introimg image-icon box red">
+                        <i class="fa fa-rocket"></i>
+                    </div>
+                    <h3>API/JSON</h3>
+                    <p class="introtext">REST API using Ruby on Rails backend</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 padd">
+                <div class="single_box style6 wow fadeIn" data-wow-duration="4s">
+                    <div class="icons_introimg image-icon box purple">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <h3>Test-driven Development</h3>
+                    <p class="introtext">Clean and maintainable codes</p>
+                </div>
+            </div>
+
+        </div><!-- end of row -->
+    </div><!-- end of container -->
+</section>
+<!-- end of what-we-do -->
+    <!-- contact -->
+    <section id="contact" data-anchor="contact" class="content-2 section-grey">
+      <div class="container">
+          <div class="row">
+              <h1 class="text-center">Contact</h1>
+                <div class="line"></div>
+
+                <p class="lead text-center margin-bottom-45">Let's turn your ideas into reality.</p>
+
+                <div class="col-sm-12">
+                  <div class="padd">
+                      <div style="display: none;" id="thankyou_message">
+                        <h2 class="weight-100"> Thanks for sending me a message. In the meantime, grab a coffee while I get back to you</h2>
+                      </div>
+                      <form role="form" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwWnwdfF1J1Qdul5_vneo19zucA-1_oInFLmZn20hDi8JuMcyE/exec">
+                            <div class="col-sm-6 col-xs-12 col-md-6">
+                              <div class="form-group">
+                                    <input type="text" type="name" name="name" id="name" class="form-control" placeholder="Name">
+                              </div>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-12 col-md-6">
+                              <div class="form-group">
+                                    <input type="text" type="email" name="email" id="email" class="form-control" placeholder="Email">
+                              </div>
+                            </div>
+
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" type="message" name="message" id="exampleMessage-3" placeholder="Drop your enquiries here! " rows="6"></textarea>
+                                    <br />
+                                    <button class="btn btn-lg pi-btn-default no-rounded pull-right" type="submit">Deliver<i class="fa fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div><!-- end col-sm-7 -->
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <footer class="dark content">
+        <div class="container text-center">
+            <div class="row">
+              <div class="margin-top-20 margin-bottom-20">
+                    <a href="https://github.com/sooyang" class="social-icon-jump-x4 circle" target="_blank">
                         <div>
                             <i class="fa fa-github github-icon-jump"></i>
                             <i class="fa fa-github social-icon-jump-dark"></i>
                         </div>
                     </a>
-                    <a href="#" class="social-icon-jump-x2">
+
+                    <a href="https://my.linkedin.com/in/sooyangtan" class="social-icon-jump-x4 circle" target="_blank">
                         <div>
                             <i class="fa fa-linkedin linkedin-icon-jump"></i>
                             <i class="fa fa-linkedin social-icon-jump-dark"></i>
                         </div>
                     </a>
                 </div>
- -->
-            <!-- </div>end row -->
-        <!-- </div>end container -->
-    <!-- </div> -->
-    <!-- end top header -->
-    <!-- start Navigation -->
-
-
-    <!-- header -->
-    <!-- <header class="section-parallax parallaxBg" style="background-image: url(img/portfolio/abstract/image_02.jpg);"> -->
-    <!-- <header style="background-color: white; width: 100%; height: 100%"> -->
-      <!-- <div class="layer"></div> -->
-      <div style="background-color: white">
-      <div class="container text-center no-slider" style="width: 100%">
-          <div id="particles-js" style="width: 100%; height:100vh; top:0; left: 0">
-            <div class="col-sm-12"  style="color: black; position: absolute; left:50%; -webkit-transform: translateX(-50%); top: 40%">
-                <h4> SOO YANG, TAN </h4>
-            </div>
-            <div class="col-sm-12"  style="color: black; position: absolute; left:50%; -webkit-transform: translateX(-50%); bottom: 40%">
-                <h2> SOFTWARE ENGINEER </h2>
-            </div>
-          </div>
-        </div><!-- end container -->
-      </div>
-    <!-- </header> -->
-    <!-- end header -->
-    <!-- what-we-do -->
-<!--     <section class="content">
-      <div class="container">
-          <div class="row">
-                <div class="col-sm-6 col-md-3 padd">
-                    <div class="single_box style6 wow fadeIn" data-wow-duration="1s">
-                        <div class="icons_introimg image-icon box grey">
-                            <i class="fa fa-tablet"></i>
-                        </div>
-                        <h3>Responsive Design</h3>
-                        <p class="introtext">Lorem ipsum dolor met consetetur sadipscing elitrsed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 padd">
-                    <div class="single_box style6 wow fadeIn" data-wow-duration="2s">
-                        <div class="icons_introimg image-icon box pink">
-                            <i class="fa fa-code"></i>
-                        </div>
-                        <h3>HTML5 / CSS3</h3>
-                        <p class="introtext">Lorem ipsum dolor met consetetur sadipscing elitrsed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 padd">
-                    <div class="single_box style6 wow fadeIn" data-wow-duration="3s">
-                        <div class="icons_introimg image-icon box red">
-                            <i class="fa fa-rocket"></i>
-                        </div>
-                        <h3>Premium Design</h3>
-                        <p class="introtext">Lorem ipsum dolor met consetetur sadipscing elitrsed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                      <a href="#">Learn More</a>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 padd">
-                    <div class="single_box style6 wow fadeIn" data-wow-duration="4s">
-                        <div class="icons_introimg image-icon box purple">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <h3>Shortcode</h3>
-                        <p class="introtext">Lorem ipsum dolor met consetetur sadipscing elitrsed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
-                      <a href="#">Learn More</a>
-                    </div>
-                </div>
-
-            </div><!-- end of row -->
-        <!-- </div>end of container -->
-    <!-- </section>  -->
-    <!-- end of what-we-do -->
-
-    <!-- about-us -->
-<!--     <section class="content" style="background: url(img/pixel_weave.png) repeat;">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-6 padd">
-                  <h4 class="uppercase">Similique Sunt</h4>
-                    <div class="line-left"></div>
-                    <p class="weight-600">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet</p>
-                    <ul class="list3">
-                      <li><i class="fa fa-check"></i>At vero eos et accusamus et iusto odio dignissimos ducimus</li>
-                        <li><i class="fa fa-check"></i>Nam libero tempore, cum soluta nobis est eligendi optio cumque</li>
-                        <li><i class="fa fa-check"></i>Temporibus autem quibusdam et aut officiis debitis aut rerum</li>
-                        <li><i class="fa fa-check"></i>Officiis debitis aut rerum necessitatibus saepe quibusdam</li>
-                    </ul>
-                    <a href="#" class="btn rounded btn-lg pi-btn-default">Purchase Piksell</a>
-                </div>
-
-                <div class="col-sm-6 padd">
-                  <img class="img-responsive wow zoomIn" src="img/apple-devices-2.png" alt="" />
-                </div> -->
-            <!-- </div>end row -->
-        <!-- </div>end container -->
-    <!-- </section> -->
-    <!-- end about-us -->
-
-    <!-- portfolio -->
-<!--     <section class="content section-grey">
-      <div class="container portfolio">
-          <h4><span>Our Works</span></h4>
-            <div class="line"></div>
-
-            <div class="row">
-              <div class="col-sm-12">
-                  <div class="col-sm-4">
-                        <div class="work">
-                            <div class="layer"></div>
-                            <div class="more"><i class="fa fa-plus"></i></div>
-                            <img src="img/portfolio/nature/image_02.jpg" alt="" />
-                            <div class="title">
-                                <a href="#"><h6>Tree in Morning Sunlights</h6></a>
-                                <div class="tags">Nature</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4">
-                        <div class="work">
-                            <div class="layer"></div>
-                            <div class="more"><i class="fa fa-plus"></i></div>
-                            <img src="img/portfolio/architecture/image_02.jpg" alt="" />
-                            <div class="title">
-                                <a href="#"><h6>Blue Windows in Venice</h6></a>
-                                <div class="tags">Architecture</div>
-                            </div>
-                        </div>
-                    </div>
-
-                  <div class="col-sm-4">
-                        <div class="work">
-                            <div class="layer"></div>
-                            <div class="more"><i class="fa fa-plus"></i></div>
-                            <img src="img/portfolio/abstract/image_01.jpg" alt="" />
-                            <div class="title">
-                                <a href="#"><h6>Abstract Sunset Girl</h6></a>
-                                <div class="tags">Abstract</div>
-                            </div>
-                        </div>
-                    </div> -->
-                <!-- </div>end col-sm-12 -->
-                <!-- <a href="#" class="btn rounded-x2 pi-btn-default btn-lg">View All Works</a> -->
-            <!-- </div>end row -->
-        <!-- </div>end container -->
-    <!-- </section> -->
-    <!-- end portfolio -->
-    <!-- footer -->
-<!--     <footer id="footer" class="dark">
-        <div class="container footer">
-            <div class="row">
-
-                <div class="col-sm-5 padd">
-                    <h5>Piksell</h5>
-                    <div class="line-left"></div>
-                    <p>Stet clita kasd gubergren, no sea takimata sanctus est consetetur sadipscing elitr accusam aliquyam diam diam dolore dolores duo eirmod. At accusam aliquyam diam diam dolore dolores eirmodeos erat, et nonumy sed tempor et et invidunt justo labore stet clita.</p>
-                </div>
-
-                <div class="col-sm-3 padd">
-                    <h5>Piksell Contact</h5>
-                    <div class="line-left"></div>
-                    <address>
-                        <p>
-                            <i class="fa fa-map-marker"></i>&nbsp;77 Mass. Ave., E14/E15<br>
-                            Seattle, MA 02139-4307 USA <br>
-                            <i class="fa fa-phone"></i>&nbsp;012.345.6789 <br>
-                            <i class="fa fa-envelope"></i>&nbsp;<a href="mailto:mantii_ju@hotmail.com">info@piksell.com</a>
-                        </p>
-                    </address>
-                </div>
-
-                <div class="col-sm-4 padd">
-                    <h5>Monthly Newsletter</h5>
-                    <div class="line-left"></div>
-                    <p>Stet clita kasd gubergren, no sea takimata sanctus est consetetur sadipscing.</p>
-                    <form>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Email Address">
-                            <span class="input-group-btn">
-                                <button class="btn pi-btn-default" type="button">Subscirbe</button>
-                            </span>
-                        </div>
-                    </form>
-                    <a href="#" class="social-icon-jump-x4 rounded">
-                        <div>
-                            <i class="fa fa-facebook facebook-icon-jump"></i>
-                            <i class="fa fa-facebook social-icon-jump-dark"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="social-icon-jump-x4 rounded">
-                        <div>
-                            <i class="fa fa-twitter twitter-icon-jump"></i>
-                            <i class="fa fa-twitter social-icon-jump-dark"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="social-icon-jump-x4 rounded">
-                        <div>
-                            <i class="fa fa-dribbble dribbble-icon-jump"></i>
-                            <i class="fa fa-dribbble social-icon-jump-dark"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="social-icon-jump-x4 rounded">
-                        <div>
-                            <i class="fa fa-linkedin linkedin-icon-jump"></i>
-                            <i class="fa fa-linkedin social-icon-jump-dark"></i>
-                        </div>
-                    </a>
-                    <a href="#" class="social-icon-jump-x4 rounded">
-                        <div>
-                            <i class="fa fa-skype skype-icon-jump"></i>
-                            <i class="fa fa-skype social-icon-jump-dark"></i>
-                        </div>
-                    </a>
-                </div> -->
-
-            <!-- </div>end row -->
-        <!-- </div>end container -->
-
-<!--         <div class="copyrights">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-sm-12">
-                        <p class="pull-left">2014 &copy; <a href="http://www.diamondcreative.net">DiamondCreative</a> / All Rights reserved.</p>
-                        <ul class="inline-block pull-right">
-                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                            <li class="topbar-devider"></li>
-                            <li><a href="faq.html">Terms of Service</a></li>
-                        </ul>
-                    </div> -->
-
-                <!-- </div>end row -->
-            <!-- </div>end container -->
-        <!-- </div>end copyrights -->
-    <!-- </footer> -->
-    <!-- end footer -->
+                <p>2017 &copy; SOO YANG, TAN</p>
+            </div><!-- end row
+        </div>
+    </footer>
 
    <!-- jQuery -->
   <script src="js/jquery-1.11.1.min.js"></script>
@@ -290,5 +180,13 @@
     new WOW().init();
     // This is where it all goes :)
     particlesJS.load('particles-js', 'assets/particles.json', function() {
+    });
+  </script>
+  <script data-cfasync="false" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <script>
+    $("#contact_button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact").offset().top},
+        'slow');
     });
   </script>
