@@ -6,15 +6,37 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "Soo Yang, Tan | Software Engineer" %></title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Icons/FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!-- totop -->
+    <link rel="stylesheet" href="css/ui.totop.css" />
+    <!-- owl carusol -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <!-- zetta menu -->
+    <link rel="stylesheet" href="css/zetta-menu.min.css" />
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+
+
 
     <%= stylesheet_link_tag :site %>
     <%= javascript_include_tag :all %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body>
     <%= yield %>
   </body>
 </html>
