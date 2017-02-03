@@ -62,7 +62,7 @@ a {
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-a:hover { color: #01c1c1; text-decoration: underline; }
+a:hover { color: #95A5A6; text-decoration: underline; }
 a:focus { outline: none; }
 button {
 	-webkit-transition: all 0.2s ease-out;
@@ -191,8 +191,8 @@ ul.list-dashed li:last-child { border-bottom: 0px; }
 
 /*BUTTON STYLES*/
 /*default*/
-.pi-btn-default { background: #01c1c1; color: #f4f6f6; border: 1px solid #00aeae; box-shadow: inset 0 1px 0px rgba(255,255,255, 0.2); }
-.pi-btn-default:hover { background: #00aeae; color: #fff; border: 1px solid #019191; }
+.pi-btn-default { background: #2c3e50; color: #FFFFFF; border: 1px solid #67809F; box-shadow: inset 0 1px 0px rgba(255,255,255, 0.2); }
+.pi-btn-default:hover { background: #95A5A6; color: #fff; border: 1px solid #019191; }
 
 /*pink*/
 .pi-btn-pink { background: #dc2d78; border: 1px solid #cc286e; color: #f4f6f6; box-shadow: inset 0 1px 0px rgba(255,255,255, 0.2); }
@@ -823,8 +823,8 @@ em { font-size: 1.4em; line-height: 1.2em; margin-bottom: 20px; display: inline-
 }
 
 /*HEADING OPTIONS*/
-.line { width: 50px; height: 1px; background: #01c1c1; margin: 0px auto 70px auto; text-align: center; }
-.line-left { width: 50px; height: 1px; margin: 10px 0 25px 2px; background: #01c1c1; }
+.line { width: 50px; height: 1px; background: #2c3e50; margin: 0px auto 70px auto; text-align: center; }
+.line-left { width: 50px; height: 1px; margin: 10px 0 25px 2px; background: #2c3e50; }
 /*heading*/
 .heading { position: relative; overflow: hidden; padding: 20px 0; }
 /*heading v1*/

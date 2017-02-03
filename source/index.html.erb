@@ -1,40 +1,46 @@
-<div style="background-color: white; border-bottom: 1px solid">
-  <div class="container text-center no-slider" style="width: 100%">
+<div style="background-color: white;">
+  <div class="container text-center no-slider" style="width: 100%; border-bottom: 1px solid #f7f7f7;" id="home">
     <div class="row">
       <div id="particles-js" style="width: 100%; height:100vh; top:0; left: 0">
         <!-- start Navigation -->
-        <nav class="navbar navbar-default" role="navigation" style="position: absolute; background-color: transparent; box-shadow: none; webkit-box-shadow: none">
+        <nav class="navbar navbar-default navbar-right" role="navigation" style="position: absolute; background-color: transparent; box-shadow: none; webkit-box-shadow: none">
           <div class="container" style="background-color: transparent;">
-            <!-- Zetta Menu 1 -->
-            <ul onClick="" class="zetta-menu zm-response-switch zm-full-width zm-effect-slide-top" style="background-color: transparent; ">
-                <!-- Home Menu -->
-                <li class="zm-right-item zm-active">
-                  <a>Home</a>
+            <ul onClick="" class="zetta-menu zm-response-switch zm-full-width zm-effect-slide-top pull-right" style="background-color: transparent;">
+                <li class="zm">
+                  <a id="nav_home">Home</a>
                 </li>
-                <!-- /Home Menu -->
+                <li class="zm">
+                  <a id="nav_about">About</a>
+                </li>
+                <li class="zm">
+                  <a id="nav_stack">Stack</a>
+                </li>
+                <li class="zm">
+                  <a id="nav_contact">Contact</a>
+                </li>
             </ul>
-            <!-- /Zetta Menu 1 -->
-          </div><!-- /.container-fluid -->
+          </div>
         </nav>
         <!-- end nav -->
         <div class="col-xs- 12 col-sm-12 col-md-12 col-lg-12"  style="color: black; position: absolute; left:50%; -webkit-transform: translateX(-50%); top: 35%">
-          <h3 class="weight-100"> SOO YANG, TAN </h3>
-          <h1 class="weight-300" style="margin: 30px 0"> SOFTWARE ENGINEER </h1>
+          <h3 class="weight-100" style="color: #2c3e50"> SOO YANG, TAN </h3>
+          <h1 class="weight-300" style="margin: 30px 0; color: #2c3e50"> SOFTWARE ENGINEER </h1>
         </div>
       </div>
     </div>
   </div>
 </div>
 <!-- about-us -->
-<section class="content" style="background-color: #fafafa;">
+<section class="content" style="background-color: #fafafa;" id="about">
   <div class="container">
       <div class="row">
           <div class="col-sm-6 padd">
-              <h4 class="uppercase">Who am I?</h4>
+              <h4 class="uppercase" style="color: #2c3e50">Who am I?</h4>
                 <div class="line-left"></div>
-                <p class="weight-600">My name is Soo Yang. I'm a full-stack web developer experienced in building MVP applications for startups and business owners</p>
-                <p class="weight-600">My favorite stack includes Ruby on Rails back-end development, React.js front-end developement and React Native mobile developement</p>
-                <p class="weight-600">Need a software solution? Feel free to drop me an email.</p>
+                <p class="weight-600" style="color: #95A5A6">My name is Soo Yang. I'm a full-stack web developer experienced in building MVP applications for startups and business owners</p>
+                <p class="weight-600" style="color: #95A5A6">My favorite stack includes Ruby on Rails back-end development, React.js front-end developement and React Native mobile developement</p>
+                <p class="weight-600" style="color: #95A5A6">Need a software solution? Feel free to drop me an email.</p>
+                <br/>
                 <button class="btn btn-lg pi-btn-default no-rounded" id="contact_button">Contact</button>
             </div>
 
@@ -46,7 +52,7 @@
 </section>
 <!-- end about-us -->
 <!-- what-we-do -->
-<section class="content">
+<section class="content" id="stack">
   <div class="container">
       <div class="row">
 
@@ -55,8 +61,8 @@
                     <div class="icons_introimg image-icon box pink">
                         <i class="fa fa-code"></i>
                     </div>
-                    <h3>Ruby on Rails</h3>
-                    <p class="introtext">Modern web application</p>
+                    <h3 style="color: #2c3e50">Ruby on Rails</h3>
+                    <p class="introtext" style="color: #95A5A6">Modern web application</p>
                 </div>
             </div>
 
@@ -65,8 +71,8 @@
                     <div class="icons_introimg image-icon box grey">
                         <i class="fa fa-tablet"></i>
                     </div>
-                    <h3>React Native</h3>
-                    <p class="introtext">Cross-Platform mobile development for iOS and Android using Javascript</p>
+                    <h3 style="color: #2c3e50">React Native</h3>
+                    <p class="introtext" style="color: #95A5A6">Cross-Platform mobile development for iOS and Android using Javascript</p>
                 </div>
             </div>
 
@@ -75,8 +81,8 @@
                     <div class="icons_introimg image-icon box red">
                         <i class="fa fa-rocket"></i>
                     </div>
-                    <h3>API/JSON</h3>
-                    <p class="introtext">REST API using Ruby on Rails backend</p>
+                    <h3 style="color: #2c3e50">API/JSON</h3>
+                    <p class="introtext" style="color: #95A5A6">REST API using Ruby on Rails backend</p>
                 </div>
             </div>
 
@@ -85,8 +91,8 @@
                     <div class="icons_introimg image-icon box purple">
                         <i class="fa fa-check"></i>
                     </div>
-                    <h3>Test-driven Development</h3>
-                    <p class="introtext">Clean and maintainable codes</p>
+                    <h3 style="color: #2c3e50">Test-driven Development</h3>
+                    <p class="introtext" style="color: #95A5A6">Clean and maintainable codes</p>
                 </div>
             </div>
 
@@ -95,18 +101,18 @@
 </section>
 <!-- end of what-we-do -->
     <!-- contact -->
-    <section id="contact" data-anchor="contact" class="content-2 section-grey">
+    <section id="contact" data-anchor="contact" class="content-2 section-grey" style="padding: 60px 0">
       <div class="container">
           <div class="row">
-              <h1 class="text-center">Contact</h1>
+              <h1 class="text-center" style="color: #2c3e50">Contact</h1>
                 <div class="line"></div>
 
-                <p class="lead text-center margin-bottom-45">Let's turn your ideas into reality.</p>
+                <p class="lead text-center margin-bottom-45" style="color: #95A5A6">Let's turn your ideas into reality.</p>
 
                 <div class="col-sm-12">
                   <div class="padd">
                       <div style="display: none;" id="thankyou_message">
-                        <h2 class="weight-100"> Thanks for sending me a message. In the meantime, grab a coffee while I get back to you</h2>
+                        <h2 class="weight-100" style="color: #2c3e50"> Thanks for sending me a message. In the meantime, grab a coffee while I get back to you</h2>
                       </div>
                       <form role="form" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwWnwdfF1J1Qdul5_vneo19zucA-1_oInFLmZn20hDi8JuMcyE/exec">
                             <div class="col-sm-6 col-xs-12 col-md-6">
@@ -185,6 +191,26 @@
   <script data-cfasync="false" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
   <script>
     $("#contact_button").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact").offset().top},
+        'slow');
+    });
+    $("#nav_home").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#home").offset().top},
+        'slow');
+    });
+    $("#nav_about").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top},
+        'slow');
+    });
+    $("#nav_stack").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#stack").offset().top},
+        'slow');
+    });
+    $("#nav_contact").click(function() {
     $('html,body').animate({
         scrollTop: $("#contact").offset().top},
         'slow');
