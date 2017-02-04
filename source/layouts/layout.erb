@@ -9,28 +9,29 @@
     <title><%= current_page.data.title || "Soo Yang, Tan | Software Engineer" %></title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- Icons/FontAwesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
     <!-- totop -->
-    <!-- <link rel="stylesheet" href="css/ui.totop.css" /> -->
+    <!-- <link rel="stylesheet" href="assets/css/ui.totop.css" /> -->
     <!-- owl carusol -->
-    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
     <!-- zetta menu -->
-    <link rel="stylesheet" href="css/zetta-menu.min.css" />
+    <link rel="stylesheet" href="assets/css/zetta-menu.min.css" />
     <!-- Animation -->
-    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
     <!-- Customizable CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- FONTS -->
     <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-    <%= javascript_include_tag :all %>
+    <%= javascript_include_tag 'assets/javascripts/all.js' %>
   </head>
 
   <body>
     <%= yield %>
+    <%= partial 'layouts/footer' %>
   </body>
 </html>
