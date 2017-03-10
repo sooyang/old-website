@@ -5,33 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Soo Yang, Tan | Software Engineer" %></title>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- Icons/FontAwesome -->
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <!-- totop -->
-    <!-- <link rel="stylesheet" href="assets/css/ui.totop.css" /> -->
-    <!-- owl carusol -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
-    <!-- zetta menu -->
-    <link rel="stylesheet" href="assets/css/zetta-menu.min.css" />
-    <!-- Animation -->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!-- Customizable CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!-- FONTS -->
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <%= javascript_include_tag 'assets/javascripts/all.js' %>
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   </head>
-
   <body>
     <%= yield %>
-    <%= partial 'layouts/footer' %>
   </body>
 </html>
