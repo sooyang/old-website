@@ -4,13 +4,13 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta http-equiv="Cache-Control" content="max-age=3600"/>
+    <meta http-equiv="expires" content="Mon, 14 Mar 2022 17:45:50 GMT">
     <title><%= current_page.data.title || "Soo Yang, Tan | Software Engineer" %></title>
-    <link rel="stylesheet" href="assets/stylesheets/style.css" />
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   </head>
   <body>
     <%= yield %>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
   </body>
 </html>

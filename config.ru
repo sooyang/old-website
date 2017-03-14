@@ -11,3 +11,9 @@ FileUtils.mkdir('log') unless File.exist?('log')
 app = ::Middleman::Application.new
 
 run ::Middleman::Rack.new(app).to_app
+
+require 'rack/contrib/static_cache'
+
+use Rack::Deflater
+use Rack::StaticCache, :urls => ['/images', '/stylesheets', '/javascripts', '/fonts'],
+                       :root => "build"
